@@ -22,6 +22,6 @@ List<MenuItems> appMenuItems = [
   const MenuItems(
       title: 'Cards',
       subtitle: 'Stilized container',
-      url: '/card',
+      url: '/cards',
       icon: Icons.credit_card)
 ];
