@@ -91,11 +91,11 @@ class _CustomButtonState extends State<CustomButton> {
     return ClipRRect(
       borderRadius: BorderRadius.circular(20),
       child: Material(
-        textStyle: TextStyle(color: Colors.white),
+        textStyle: const TextStyle(color: Colors.white),
         color: colors.primary,
         child: InkWell(
           onTap: () {},
-          child: Padding(
+          child: const Padding(
               padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
               child: Text('Custom Button')),
         ),
