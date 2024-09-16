@@ -10,7 +10,7 @@ const List<Map<String, dynamic>> cards = [
 ];
 
 class CardsScreen extends StatelessWidget {
-  static const String name = 'cars_screen';
+  static const String name = 'cards_screen';
   const CardsScreen({super.key});
 
   @override

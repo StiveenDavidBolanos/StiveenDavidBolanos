@@ -27,5 +27,30 @@ final router = GoRouter(
       name: ProgressScreen.name,
       builder: (context, state) => const ProgressScreen(),
     ),
+    GoRoute(
+      path: '/animated',
+      name: AnimatedScreen.name,
+      builder: (context, state) => const AnimatedScreen(),
+    ),
+    GoRoute(
+      path: '/infinite',
+      name: InfiniteScrollScreen.name,
+      builder: (context, state) => const InfiniteScrollScreen(),
+    ),
+    GoRoute(
+      path: '/snackbar',
+      name: SnackbarScreen.name,
+      builder: (context, state) => const SnackbarScreen(),
+    ),
+    GoRoute(
+      path: '/tutorial',
+      name: TutorialScreen.name,
+      builder: (context, state) => const TutorialScreen(),
+    ),
+    GoRoute(
+      path: '/uicontrol',
+      name: UiControlsScreen.name,
+      builder: (context, state) => const UiControlsScreen(),
+    ),
   ],
 );

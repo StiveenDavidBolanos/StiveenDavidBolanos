@@ -28,5 +28,15 @@ List<MenuItems> appMenuItems = [
       title: 'Progres Indicators',
       subtitle: 'Generales y controlados',
       url: '/progress',
-      icon: Icons.refresh_rounded)
+      icon: Icons.refresh_rounded),
+  const MenuItems(
+      title: 'Snackbars and Dialogs',
+      subtitle: 'Indicadores en pantalla',
+      url: '/snackbar',
+      icon: Icons.info_outline_rounded),
+  const MenuItems(
+      title: 'Animated Container',
+      subtitle: 'Animado',
+      url: '/animated',
+      icon: Icons.gif_box),
 ];
