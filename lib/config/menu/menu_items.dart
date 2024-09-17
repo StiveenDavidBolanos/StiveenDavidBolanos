@@ -39,4 +39,14 @@ List<MenuItems> appMenuItems = [
       subtitle: 'Animado',
       url: '/animated',
       icon: Icons.gif_box),
+  const MenuItems(
+      title: 'UI Controls',
+      subtitle: 'Controles de Interfaz',
+      url: '/uicontrol',
+      icon: Icons.pest_control_rodent_rounded),
+  const MenuItems(
+      title: 'Tutorial',
+      subtitle: 'Controles de Interfaz',
+      url: '/tutorial',
+      icon: Icons.how_to_reg_sharp),
 ];
