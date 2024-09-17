@@ -45,7 +45,7 @@ final router = GoRouter(
     GoRoute(
       path: '/tutorial',
       name: TutorialScreen.name,
-      builder: (context, state) => const TutorialScreen(),
+      builder: (context, state) => TutorialScreen(),
     ),
     GoRoute(
       path: '/uicontrol',
