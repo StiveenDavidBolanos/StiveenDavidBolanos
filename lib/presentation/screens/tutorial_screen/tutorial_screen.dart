@@ -1,7 +1,6 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:widgets_app/config/router/app_router.dart';
 
 final slides = <SlideInfo>[
   SlideInfo(
@@ -39,7 +38,7 @@ class _TutorialScreenState extends State<TutorialScreen> {
   final pageViewController = PageController();
   @override
   void initState() {
-    // TODO: implement initState
+    //
     super.initState();
     pageViewController.addListener(
       () {
@@ -70,15 +69,15 @@ class _TutorialScreenState extends State<TutorialScreen> {
             child: TextButton(
                 onPressed: () => context.pop(), child: const Text('Salir'))),
         lastPage == false
-            ? SizedBox()
+            ? const SizedBox()
             : Positioned(
                 bottom: 20,
                 right: 20,
                 child: FadeInRight(
                   from: 15,
-                  delay: Duration(seconds: 1),
+                  delay: const Duration(seconds: 1),
                   child: FilledButton(
-                      onPressed: context.pop, child: Text('Terminar')),
+                      onPressed: context.pop, child: const Text('Terminar')),
                 ))
       ]),
     );

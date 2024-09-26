@@ -49,4 +49,9 @@ List<MenuItems> appMenuItems = [
       subtitle: 'Controles de Interfaz',
       url: '/tutorial',
       icon: Icons.how_to_reg_sharp),
+  const MenuItems(
+      title: 'Infinite Scroll and Pull',
+      subtitle: 'Listas infinitas y pull to refresh',
+      url: '/infinite',
+      icon: Icons.how_to_reg_sharp),
 ];
