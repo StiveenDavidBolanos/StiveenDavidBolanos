@@ -54,4 +54,14 @@ List<MenuItems> appMenuItems = [
       subtitle: 'Listas infinitas y pull to refresh',
       url: '/infinite',
       icon: Icons.how_to_reg_sharp),
+  const MenuItems(
+      title: 'Counter',
+      subtitle: 'Riverpod Counter',
+      url: '/counter',
+      icon: Icons.how_to_reg_sharp),
+  const MenuItems(
+      title: 'Theme Changer',
+      subtitle: 'Theme Changer',
+      url: '/theme',
+      icon: Icons.color_lens),
 ];
