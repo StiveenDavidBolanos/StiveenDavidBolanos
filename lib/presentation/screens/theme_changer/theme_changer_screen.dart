@@ -23,15 +23,13 @@ class ThemeChangerScreen extends ConsumerWidget {
         ],
         title: const Text('Theme Changer'),
       ),
-      body: _themeChangerView(),
+      body: const _ThemeChangerView(),
     );
   }
 }
 
-class _themeChangerView extends ConsumerWidget {
-  const _themeChangerView({
-    super.key,
-  });
+class _ThemeChangerView extends ConsumerWidget {
+  const _ThemeChangerView();
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

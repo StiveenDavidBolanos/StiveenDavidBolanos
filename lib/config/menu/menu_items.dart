@@ -15,53 +15,18 @@ class MenuItems {
 
 List<MenuItems> appMenuItems = [
   const MenuItems(
-      title: 'Buttons',
-      subtitle: 'Many buttons',
-      url: '/buttons',
-      icon: Icons.smart_button_outlined),
+      title: 'Misiones faltantes',
+      subtitle: 'Cositas que tengo que hacer',
+      url: '/uncompleted',
+      icon: Icons.sms_failed_outlined),
   const MenuItems(
-      title: 'Cards',
-      subtitle: 'Stilized container',
-      url: '/cards',
-      icon: Icons.credit_card),
+      title: 'Misiones completadas',
+      subtitle: 'Misiones que he cumplido',
+      url: '/completed',
+      icon: Icons.star_border_rounded),
   const MenuItems(
-      title: 'Progres Indicators',
-      subtitle: 'Generales y controlados',
-      url: '/progress',
-      icon: Icons.refresh_rounded),
-  const MenuItems(
-      title: 'Snackbars and Dialogs',
-      subtitle: 'Indicadores en pantalla',
-      url: '/snackbar',
-      icon: Icons.info_outline_rounded),
-  const MenuItems(
-      title: 'Animated Container',
-      subtitle: 'Animado',
-      url: '/animated',
-      icon: Icons.gif_box),
-  const MenuItems(
-      title: 'UI Controls',
-      subtitle: 'Controles de Interfaz',
-      url: '/uicontrol',
-      icon: Icons.pest_control_rodent_rounded),
-  const MenuItems(
-      title: 'Tutorial',
-      subtitle: 'Controles de Interfaz',
-      url: '/tutorial',
-      icon: Icons.how_to_reg_sharp),
-  const MenuItems(
-      title: 'Infinite Scroll and Pull',
-      subtitle: 'Listas infinitas y pull to refresh',
-      url: '/infinite',
-      icon: Icons.how_to_reg_sharp),
-  const MenuItems(
-      title: 'Counter',
-      subtitle: 'Riverpod Counter',
-      url: '/counter',
-      icon: Icons.how_to_reg_sharp),
-  const MenuItems(
-      title: 'Theme Changer',
-      subtitle: 'Theme Changer',
-      url: '/theme',
-      icon: Icons.color_lens),
+      title: 'Lista de peliculas',
+      subtitle: 'Peliculas vistas y por ver',
+      url: '/movies',
+      icon: Icons.movie_filter_outlined),
 ];

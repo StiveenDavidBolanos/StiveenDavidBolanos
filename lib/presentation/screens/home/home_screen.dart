@@ -13,7 +13,14 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       key: scaffoldkey,
       appBar: AppBar(
-        title: const Text('Hola'),
+        title: const Text(
+          'Primera aplicación por amor',
+          style: TextStyle(fontSize: 20),
+        ),
+        leading: Icon(
+          Icons.fireplace_outlined,
+          color: Colors.red,
+        ),
       ),
       body: const _HomeView(),
       drawer: SideMenu(
@@ -53,7 +60,10 @@ class _CustomListTile extends StatelessWidget {
         Icons.arrow_forward_ios_rounded,
       ),
       iconColor: colors.primary,
-      leading: Icon(item.icon),
+      leading: Icon(
+        item.icon,
+        color: Colors.redAccent,
+      ),
       title: Text(item.title),
       subtitle: Text(item.subtitle),
       onTap: () {

@@ -13,7 +13,7 @@ class AppTheme {
   final int selectedColor;
   final bool isDarkMode;
 
-  AppTheme({this.isDarkMode = false, this.selectedColor = 0})
+  AppTheme({this.isDarkMode = true, this.selectedColor = 0})
       : assert(selectedColor >= 0 && selectedColor <= colorList.length - 1,
             'Selected color must be between 0 and ${colorList.length - 1}');
 

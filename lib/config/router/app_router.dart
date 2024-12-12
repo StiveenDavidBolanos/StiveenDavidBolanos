@@ -1,4 +1,7 @@
 import 'package:go_router/go_router.dart';
+import 'package:widgets_app/presentation/screens/misions/completed_misions_screen.dart';
+import 'package:widgets_app/presentation/screens/misions/uncompleted_misions_screen.dart';
+import 'package:widgets_app/presentation/screens/movies/movies_screen.dart';
 import 'package:widgets_app/presentation/screens/progress/progress_screen.dart';
 import 'package:widgets_app/presentation/screens/theme_changer/theme_changer_screen.dart';
 
@@ -14,14 +17,19 @@ final router = GoRouter(
       builder: (context, state) => const HomeScreen(),
     ),
     GoRoute(
-      path: '/cards',
-      name: CardsScreen.name,
-      builder: (context, state) => const CardsScreen(),
+      path: '/completed',
+      name: CompletedMisionsScreen.name,
+      builder: (context, state) => const CompletedMisionsScreen(),
     ),
     GoRoute(
-      path: '/buttons',
-      name: ButtonsScreen.name,
-      builder: (context, state) => const ButtonsScreen(),
+      path: '/uncompleted',
+      name: UncompletedMisionsScreen.name,
+      builder: (context, state) => const UncompletedMisionsScreen(),
+    ),
+    GoRoute(
+      path: '/movies',
+      name: MoviesScreen.name,
+      builder: (context, state) => const MoviesScreen(),
     ),
     GoRoute(
       path: '/progress',
